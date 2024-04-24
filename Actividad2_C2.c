@@ -21,3 +21,27 @@ int main() {
 
     return 0;
 }
+
+///////////////////////////////////////////////////////////////////////////////////
+
+
+#include <stdio.h>
+
+int main() {
+    
+    float radio, altura, area;
+
+    printf("Hallemos el area de un cilindro\n");
+
+    printf("Ingrese el radio de la base del cilindro: ");
+    scanf("%f", &radio);
+
+    printf("Ingrese la altura del cilindro: ");
+    scanf("%f", &altura);
+
+    area = (2 * 3.1416 * radio * radio) + (2 * 3.1416 * radio * altura);
+ 
+    printf("El area del cilindro es: %.2f\n", area);
+
+    return 0;
+}
